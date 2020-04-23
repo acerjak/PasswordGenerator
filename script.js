@@ -27,12 +27,12 @@ const specC = confirm('Do you want to include special characters?')
 //When user generates password, must validate all criteria was followed
 
 if(!lowC && !upC && !numC && !specC){
-    alert("You did not pick any charset")
+    alert("You did not pick any of the allowed character set.")
     return
   }
 
 if(passLength < 8 || passLength > 128) {
-    alert("You did not enter the required amount of Characters.") 
+    alert("You did not enter the required amount of characters.") 
     return
   }  
   
